@@ -1,1 +1,212 @@
-Hai
+
+sanoop s@sanoop MINGW64 ~
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+sanoop s@sanoop MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{bbed3e3a-0b41-11e3-8249-d6927d06400b}.TxR.0.regtrans-ms
+ NTUSER.DAT{bbed3e3a-0b41-11e3-8249-d6927d06400b}.TxR.1.regtrans-ms
+ NTUSER.DAT{bbed3e3a-0b41-11e3-8249-d6927d06400b}.TxR.2.regtrans-ms
+ NTUSER.DAT{bbed3e3a-0b41-11e3-8249-d6927d06400b}.TxR.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
+sanoop s@sanoop MINGW64 ~
+$ cd App
+AppData/          Application Data/
+
+sanoop s@sanoop MINGW64 ~
+$ cd App
+AppData/          Application Data/
+
+sanoop s@sanoop MINGW64 ~
+$ pwd
+/c/Users/sanoop scd 0ped
+
+
+sanoop s@sanoop MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{bbed3e3a-0b41-11e3-8249-d6927d06400b}.TxR.0.regtrans-ms
+ NTUSER.DAT{bbed3e3a-0b41-11e3-8249-d6927d06400b}.TxR.1.regtrans-ms
+ NTUSER.DAT{bbed3e3a-0b41-11e3-8249-d6927d06400b}.TxR.2.regtrans-ms
+ NTUSER.DAT{bbed3e3a-0b41-11e3-8249-d6927d06400b}.TxR.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
+sanoop s@sanoop MINGW64 ~
+$ cd AppData/
+
+sanoop s@sanoop MINGW64 ~/AppData
+$ ls
+Local/  LocalLow/  Roaming/
+
+sanoop s@sanoop MINGW64 ~/AppData
+$ cd ..
+
+sanoop s@sanoop MINGW64 ~
+$ cd ..
+
+sanoop s@sanoop MINGW64 /c/Users
+$ pwd
+/c/Users
+
+sanoop s@sanoop MINGW64 /c/Users
+$ cd ..
+
+sanoop s@sanoop MINGW64 /c
+$ pwd
+/c
+
+sanoop s@sanoop MINGW64 /c
+$ ls
+'$360Section'/              Intel/                  Recovery/
+'$Recycle.Bin'/             Meteoroids/             save/
+'Abdul Anas'/               MSOCache/               swapfile.sys
+ bootmgr                   'My Web Sites'/          SWSetup/
+ BOOTNXT                    pagefile.sys           'System Volume Information'/
+'Documents and Settings'@   PerfLogs/               SYSTEM.SAV/
+ hiberfil.sys              'Program Files'/         Users/
+ HP/                       'Program Files (x86)'/   Windows/
+ inetpub/                   ProgramData/
+
+sanoop s@sanoop MINGW64 /c
+$ cd Abdul\ Anas/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas
+$ ls
+2017/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas
+$ cd 2017/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017
+$ ls
+August/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017
+$ cd August/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$ ls
+ Babatin/  'Right Solutions'/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$ cd Babatin/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August/Babatin
+$ ls\
+> ^C
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August/Babatin
+$ ls
+'Sample Image'/   Website/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August/Babatin
+$ pwd
+/c/Abdul Anas/2017/August/Babatin
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August/Babatin
+$ cd ..
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$ pwd
+/c/Abdul Anas/2017/August
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$ git clone ?git@github.com:Abdul-anas/My_Study.git
+Cloning into 'My_Study'...
+The authenticity of ho st 'github.com (192.30.253.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? Yes
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$ ls
+ Babatin/  'Right Solutions'/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$ git clone ?https://github.com/sanoopsnair/ladder.git
+Cloning into 'ladder'...
+fatal: I don't handle protocol '?https'
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$ ls
+ Babatin/  'Right Solutions'/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$ git clone git@github.com:sanoopsnair/ladder.git
+Cloning into 'ladder'...
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$ ls
+ Babatin/  'Right Solutions'/
+
+sanoop s@sanoop MINGW64 /c/Abdul Anas/2017/August
+$
